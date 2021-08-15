@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Sans:ital,wght@0,200;0,300;1,200&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+#warapper{
+	width: 100%;
+	margin: 0 auto;
+/*	background: red;*/
+/*	height: 1200px;*/
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background: #1B7C05;
+}
+.logo{
+	width: 10%;
+	height: 100px;
+	float: left;
+	background: #1B7C05;
+}
+.logo img{
+	width: 80px;
+	margin: 10px 10px;
+}
+.logotext{
+	width: 20%;
+	font-family: 'Dancing Script', cursive;
+	background:#1B7C05;
+	height: 100px;
+	float: left;
+	font-size: 35px;
+}
+.logotext ul{
+	list-style: none;
+	text-align: center;
+	color: #EB797B;
+}
+.logotext li{
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 auto;
+}
+/*aaaaaa*/
+.nav{
+	width: 70%;
+	height: 100px;
+	float: right;
+}
+.nav ul{
+	list-style: none;
+	text-align: center;
+}
+.nav li{
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 50px;
+}
+.nav li a{
+	text-decoration: none;
+	color:#E3D5D5;
+}
+.nav ul li a:hover{
+	color: #F72400;
+	border-bottom: 2px;
+}
+/*panner*/
+.panner{
+	width: 75%;
+	height: 400px;
+	margin: 0 auto;
+	background: url("../img/vietnamese-food-holding.jpeg");
+	background-size: cover;
+	
+}
+.main{
+	background:url("../img/blurry-gradient-haikei.png");
+	width: 100%;
+	height: 2000px;
+}
+/*sologan*/
+.slogan{
+	width: 100%;
+	font-family: 'Dancing Script', cursive;
+	height: 100px;
+	float: left;
+	font-size: 100px;
+	padding-top: 150px
+}
+.slogan ul{
+	list-style: none;
+	text-align: center;
+	color:#A12706;
+}
+.slogan li{
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 auto;
+}
+.mienbac{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+/*	background: grey;*/
+}
+.box-1{
+	width: 50%;
+	height: 500px;
+	margin: 0 auto;
+	float: left;
+/*	background: red;*/
+	box-sizing: border-box
+}
+.box-2{
+	width: 50%;
+	height: 500px;
+	margin: 0 auto;
+	float: left;
+/*	background: #FFFF00;*/
+	box-sizing: border-box;
+}
+.mientrung{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+/*	background: grey;*/
+}
+.miennam{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+/*	background: grey;*/
+}
+.footer{
+	background:#180C0C;
+	width: 100%;
+	height: 130px;
+	padding-bottom: 30px;
+}
+.footer-nav ul{
+	list-style: none;
+	text-align: center;
+}
+.footer-nav li{
+	display: inline-block;
+	margin: 0 50px;
+	line-height: 70px;
+	margin-top: 30px;
+}
+.footer-nav li a{
+	color:#F2BB0B;
+	text-decoration: none;
+}
+.footer-nav li a:hover{
+	opacity: 0.5;
+	border-bottom: 2px;
+}
+.footer p{
+	color: wheat;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	
+}
